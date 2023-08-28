@@ -10,10 +10,6 @@ on:
     branches:
       - main
 
-  schedule:
-    # The CI is executed every day at 8am
-    - cron: "0 8 * * *"
-
 
 jobs:
   test-code:
